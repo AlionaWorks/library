@@ -47,7 +47,7 @@ function addBook() {
     let bookbookAuthorTrim = bookAuthor.trim();
 
     if (bookNameTrim == '' || bookbookAuthorTrim == '') {
-        alert('Поле не може бути пустим!');
+        alert('The field cannot be empty');
     }
     else {
         let bookDiv = document.createElement('div');
