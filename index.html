@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Додати книгу </h2>
+    <div class="container">
+        <div class="container-child">
+
+            <div class="book-option-container container-name">
+                <div class="name characteristic">назва</div>
+                <input class="information input-name" type="text">
+            </div>  
+
+            <div class="book-option-container container-janre">
+                <div class="janre characteristic">жанр</div>
+                <select class="select-janre information" type="text"></select>
+            </div>  
+            
+            <div class="book-option-container container-author">
+                <div class="author characteristic">автор/ка</div>
+                <input class="information input-author" type="text">
+            </div> 
+
+          
+            <div class="buttons">
+                <button class="add-button"> Додати </button>
+                <button class="delete-button"> Видалити </button>
+            </div> 
+        </div>
+
+
+        <div class="container-child">
+            <div class="characteristic">Додати жанр</div>
+            <input class="information input-janre" type="text">
+            <button class="add-janre-button"> Додати </button>
+        </div>
+    </div>
+    <div class="books-table"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>

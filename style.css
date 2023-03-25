@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.container-child {
+    width: 50%;
+}
+
+.book-option-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.characteristic {
+    border: 2px solid black; 
+    margin-right: 10px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.information {
+    border: 2px solid black;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    margin-right: 10px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.add-button {
+    margin-right: 10px;
+}
+
+.bookShelf {
+    margin: 15px;
+    border: 2px solid black;
+    width: 75%;
+    text-align: center;
+}
+
+.bookBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    height: 60px;
+    width: 300px;
+    margin: 10px;
+}
